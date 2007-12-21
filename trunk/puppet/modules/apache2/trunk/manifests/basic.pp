@@ -1,5 +1,5 @@
 # apache2/manifests/classes/apache2_basic.pp
-# by Sam Quigley <quigley@emerose.com>
+# by Sam Quigley <sq@wesabe.com>
 
 # implements a basic, no-frills apache.  
 

@@ -1,5 +1,5 @@
 # Apache2 Recipe #
-apache2 -- v0.3 by Sam Quigley <sq@wesabe.com
+apache2 -- v0.4 by Sam Quigley <sq@wesabe.com>
 
 Basic module for configuring apache via puppet.  Debian/Ubuntu-specific at
 the moment, but patches are welcome.
@@ -94,6 +94,7 @@ helpful.
 
 ## Changes ##
 
+* stop explicitly importing stuff from manifests/classes; rely on autoload instead
 * add `site_include` definition, similar to `site`
 * add content property to site definition, similar to config
 * allow ensure=>installed for sites -- required moving site installation code 

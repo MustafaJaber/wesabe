@@ -1,5 +1,5 @@
 # apache2/manifests/classes/apache2_debian.pp
-# by Sam Quigley <quigley@emerose.com>
+# by Sam Quigley <sq@wesabe.com>
 
 # this class attempts to mimic the default configuration of the debian
 # apache2 package
